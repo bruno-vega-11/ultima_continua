@@ -1,0 +1,14 @@
+fun int doble(int x)
+    return(2 * x)
+endfun
+
+fun int suma(int x, int y)
+    return(x + y)
+endfun
+
+fun int main()
+    print(doble(3));
+    print(suma(4, 5));
+    print(doble(suma(2, 3)));
+    return(0)
+endfun

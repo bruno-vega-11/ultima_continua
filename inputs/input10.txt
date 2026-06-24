@@ -1,0 +1,17 @@
+fun int main()
+    var matrix tabla;
+    var int fila, columna, total;
+    tabla = new int[2][2] {1, 2, 3, 4};
+    fila = 0;
+    total = 0;
+    while fila < 2 do
+        columna = 0;
+        while columna < 2 do
+            total = total + (tabla[fila][columna] ** 3);
+            columna = columna + 1
+        endwhile;
+        fila = fila + 1
+    endwhile;
+    print(total);
+    return(0)
+endfun

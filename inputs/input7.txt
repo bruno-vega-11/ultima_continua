@@ -1,0 +1,11 @@
+struct Punto {
+    var int x
+};
+
+fun int main()
+    var Punto p;
+    p = new Punto {};
+    p.x = 7;
+    print(p.x ** 2);
+    return(0)
+endfun

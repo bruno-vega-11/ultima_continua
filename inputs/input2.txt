@@ -1,0 +1,8 @@
+    fun int main()
+        var int a, b;
+        a = 2;
+        b = 3;
+        print(a ** b);
+        return(0)
+    endfun
+

@@ -1,0 +1,13 @@
+fun int main()
+    var list numeros;
+    var int i, total;
+    numeros = new int {2, 3, 4};
+    i = 0;
+    total = 0;
+    while i < 3 do
+        total = total + (numeros[i] ** 2);
+        i = i + 1
+    endwhile;
+    print(total);
+    return(0)
+endfun

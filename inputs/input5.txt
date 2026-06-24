@@ -1,0 +1,8 @@
+fun int triple(int x)
+    return(3 * x)
+endfun
+
+fun int main()
+    print(triple(5));
+    return(0)
+endfun

@@ -1,0 +1,6 @@
+fun int main()
+    var int n;
+    n = 4;
+    print(n ** 4 + n ** 2);
+    return(0)
+endfun
